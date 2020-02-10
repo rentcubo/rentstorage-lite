@@ -1,0 +1,171 @@
+.image{
+	width: 100%;
+	height: 50%;
+}
+.bg-card-header {
+	/*background: #f9fafb;*/
+	background: #3cbcb6;
+	border-bottom: 1px solid #3dbcc580;
+	color: white;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.badge:empty {
+    display: none;
+}
+
+.btn .badge,
+.ajax-upload-dragdrop .ajax-file-upload .badge,
+.swal2-modal .swal2-buttonswrapper .swal2-styled .badge,
+.wizard>.actions a .badge {
+    position: relative;
+    top: -1px;
+}
+
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #03a9f3;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0286c1;
+}
+
+.badge-secondary {
+    color: #212529;
+    background-color: #f4f4f4;
+}
+
+.badge-secondary[href]:hover,
+.badge-secondary[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #dbdbdb;
+}
+
+.badge-success,
+.preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    color: #fff;
+    background-color: #00c292;
+}
+
+.badge-success[href]:hover,
+.preview-list .preview-item .preview-thumbnail [href].badge.badge-online:hover,
+.badge-success[href]:focus,
+.preview-list .preview-item .preview-thumbnail [href].badge.badge-online:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #008f6c;
+}
+
+.badge-info,
+.preview-list .preview-item .preview-thumbnail .badge.badge-offline {
+    color: #212529;
+    background-color: #ab8ce4;
+}
+
+.badge-info[href]:hover,
+.preview-list .preview-item .preview-thumbnail [href].badge.badge-offline:hover,
+.badge-info[href]:focus,
+.preview-list .preview-item .preview-thumbnail [href].badge.badge-offline:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #8d63da;
+}
+
+.badge-warning,
+.preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+    color: #212529;
+    background-color: #ffb463;
+}
+
+.badge-warning[href]:hover,
+.preview-list .preview-item .preview-thumbnail [href].badge.badge-busy:hover,
+.badge-warning[href]:focus,
+.preview-list .preview-item .preview-thumbnail [href].badge.badge-busy:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #ff9b30;
+}
+
+.badge-danger {
+    color: #212529;
+    background-color: #fb9678;
+}
+
+.badge-danger[href]:hover,
+.badge-danger[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #fa6f46;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: #ffffff;
+}
+
+.badge-light[href]:hover,
+.badge-light[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #e6e6e6;
+}
+
+.badge-dark {
+    color: #fff;
+    background-color: #3a3f51;
+}
+
+.badge-dark[href]:hover,
+.badge-dark[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #252833;
+}
+
+.settings-img-preview {
+  height: 50px; 
+  width:75px;
+  margin-bottom: 15px; 
+  border-radius:2em;
+} 
+
+svg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.logo {
+	background-color: #3cbcb6!important;
+}
+/*.box-primary{
+
+	background-color: #3cbcb6!important;
+}*/
+.box.box-primary {
+    border-top-color: #3cbcb6;
+}
+li.user-header {
+    background-color: #3cbcb6!important;
+}
